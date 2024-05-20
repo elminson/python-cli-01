@@ -6,16 +6,16 @@ with open('requirements.txt') as f:
 
 
 setup(
-    name='blkpy-demo',
-    description='demo python CLI tool to list block devices',
+    name='checkdir',
+    description='python CLI tool to list block devices',
     packages=find_packages(),
-    author='Alfredo Deza',
+    author='Elminson De Oleo Baez',
     entry_points="""
     [console_scripts]
-    blkpy=blkpy.main:main
+    checkdir=checkdir.main:main
     """,
     #install_requires=['click==7.1.2'],
     install_requires=install_requires,
     version='0.0.1',
-    url='https://github.com/alfredodeza/python-cli-example',
+    url='https://github.com/elminson/python-cli-01',
 )
